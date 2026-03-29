@@ -21,6 +21,5 @@ if __name__=="__main__":
     create()
     user = ModelUser(id=2, username="Juan", email="str@ff.com")
     ctk.set_appearance_mode("light")
-    #LoginWindow(user_conector=user_conector)
-    DashboardWindow(user_conector=user_conector, user=user)
+    LoginWindow(user_conector=user_conector)
 
