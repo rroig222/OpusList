@@ -19,7 +19,6 @@ def create():
 if __name__=="__main__":
     user_conector = UserConector()
     create()
-    user = ModelUser(id=2, username="Juan", email="str@ff.com")
     ctk.set_appearance_mode("light")
     LoginWindow(user_conector=user_conector)
 
